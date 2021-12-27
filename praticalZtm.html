@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css"/>
+
+    <style>
+        html, body{
+            font-family: monospace;
+            background-image: url(header.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        h1{
+            color: white;
+            font-size: 3rem;
+            
+        }
+
+        .hr{
+            border-color: yellow;
+            border-width: 3px;
+            border-style: solid;
+            max-width: 40px;
+        }
+
+        .buffered{
+            height: 150px;
+            visibility: hidden;
+        }
+
+        .btn{
+           border-radius: 300px;
+           padding: 1rem 2rem;
+           font-size: 1.5rem;
+            
+        }
+      
+    </style>
+</head>
+<body>
+
+     <div class="container d-flex  align-items-center h-100 ">
+        <div class="row d-flex justify-content-center">
+        <header class="text-uppercase text-center">
+         <h1>The biggest start up event of the year</h1>
+      </header>
+     
+      <div class="buffered col-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ducimus! Ullam eveniet iure possimus sed ratione architecto. Amet repellendus nam magni, esse sit, quia inventore atque unde recusandae alias sed.</div> 
+
+        <section class="text-center">
+        <hr class="hr">
+
+        <button type="button" onclick="document.location='pratical.html'" class="btn btn-secondary text-uppercase text-center">Click to get started</button>
+    </section>
+        </div>
+       </div>
+
+   
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
